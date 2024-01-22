@@ -10,6 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 180px 0 220px;
 }
 
 .nav-name {
@@ -44,6 +45,24 @@ nav a {
     font-size: 20px;
     font-weight: 700;
 }
-nav li button{
+
+nav li button {
     padding: 18px 35px;
+}
+
+header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    border: 0px;
+    margin: 0px 30px 0 225px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-pic img {
+    width: 584px;
+    height: 676px;
 }
